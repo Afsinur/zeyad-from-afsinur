@@ -90,14 +90,14 @@ const RelatedViewCollection = () => {
       customize: "ClassicMafiaTee",
     },
     {
-      onLoadImg: "/img/bottomProductImage/02BottomProduct_home.jpg",
+      onLoadImg: "/img/bottomProductImage/02BottomProduct_home.JPG",
       onLoadTitle: "Classic mafia long sleave",
       onLoadSubTitles: "$48.98",
       hoverSubTitles: ["s", "m", "l"],
       customize: "ClassicMafiaLongSleave",
     },
     {
-      onLoadImg: "/img/bottomProductImage/03BottomProduct_home.jpg",
+      onLoadImg: "/img/bottomProductImage/03BottomProduct_home.JPG",
       onLoadTitle: "Classic 24k tee",
       onLoadSubTitles: "$27.98",
       hoverSubTitles: ["s", "m", "l"],
