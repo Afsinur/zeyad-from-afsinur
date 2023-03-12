@@ -11,6 +11,7 @@ import ClassicMafiaHoddie from "./pages/product/ClassicMafiaHoddie";
 import ClassicMafiaLongSleave from "./pages/product/ClassicMafiaLongSleave";
 import ClassicMafiaTee from "./pages/product/ClassicMafiaTee";
 import Classsic24ktTee from "./pages/product/Classsic24ktTee";
+import Cassis24kLongSleave from "./pages/product/Cassis24kLongSleave";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
   {
     path: "/product/Classsic24ktTee",
     element: <Classsic24ktTee />,
+  },
+  {
+    path: "/product/Cassis24kLongSleave",
+    element: <Cassis24kLongSleave />,
   },
 ]);
 

@@ -144,7 +144,7 @@ function RightImg() {
       </Link>
 
       <Link
-        to="/product/ClassicMafiaLongSleave"
+        to="/product/Cassis24kLongSleave"
         className="absolute-links absolute-link-2"
         style={{ textTransform: "uppercase" }}
       >

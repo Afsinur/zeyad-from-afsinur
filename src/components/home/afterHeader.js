@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
-import { useEffect, useState } from "react";
 import PrintOneImgBox from "./PrintOneImgBox";
 
 const AfterHeaderDiv = styled.div`
@@ -53,16 +52,22 @@ const AfterHeaderDiv = styled.div`
 `;
 
 const AfterHeader = () => {
-  let [imgDataArr, setImgDataArr] = useState([]);
-
-  useEffect(() => {
-    (async () => {
-      let res = await fetch("/api/home/heroData.json");
-      let data = await res.json();
-
-      setImgDataArr(data);
-    })();
-  }, []);
+  let imgDataArr = [
+    {
+      onLoadImg: "/img/heroHover/heroimg01.jpg",
+      onHoverImg: "/img/heroHover/hoverHeroimg01.jpg",
+      onLoadTitle: "24k classic collection",
+      onLoadSubTitles: "",
+      hoverSubTitles: [""],
+    },
+    {
+      onLoadImg: "/img/heroHover/heroimg02.jpg",
+      onHoverImg: "/img/heroHover/hoverHeroimg02.jpg",
+      onLoadTitle: "",
+      onLoadSubTitles: "",
+      hoverSubTitles: [""],
+    },
+  ];
   return (
     <AfterHeaderDiv>
       <div className="img-container">
